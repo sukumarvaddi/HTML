@@ -22,3 +22,19 @@ To specify an icon for a home screen on mobile devices, you can use link tag as 
 ```
 
 [Click here](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) for a detailed explanation on how to add home screen icons on IOS devices.
+
+`<link>` tag can be provided with `media` attribute which takes either a media type such as `print` or media query as its value. By using `<link>` tag in this manner, you can load the resource when the condition is true. This trick is used in optimizing the performance of the web application.
+
+```html
+<link href="style.css" rel="stylesheet" media="print" />
+```
+
+The above stylesheet is not loaded when the browser load the document for viewing. This is loaded and applied when you try to print the document.
+
+Here is an example of `<link>` used with media query .
+
+```html
+<link href="style.css" rel="stylesheet" media="screen and (max-width: 500px)" />
+```
+
+This style sheet is loaded when the value specified for `media` attribute is evaluated to true.
