@@ -1,17 +1,24 @@
-# <link>
+# &lt;link&gt; tag
 
-link tag specifies relationship between the current document and external resources.
-This tag is versatile.
-It provides external links to CSS.
-The 'rel' attribute of this tag stands for 'relationship'
+`<link>` tag specifies relationship between the current document and external resources. This is a multipurpose tag.
 
-<link href='styles.css' rel='stylesheet'>
-This tag is not limited to connecting the current document with external style sheets. It is also used to establish site icons such as favicons, home screen icons for web applications on mobile devices 
+It is used to provide external links to CSS as shown below. The `rel` attribute of this tag stands for 'relationship'
+
+```html
+<link href="styles.css" rel="stylesheet" />
+```
+
+This tag is not limited to connecting the current document with external style sheets. It is also used to establish site icons such as favicons, home screen icons for web applications on mobile devices.
 To specify an favicon you can use link tag as follows
-<link rel='icon' href='favicon.ico'>
+
+```html
+<link rel="icon" href="favicon.ico" />
+```
 
 To specify an icon for a home screen on mobile devices, you can use link tag as follows
 
-<link rel="apple-touch-icon" href="/custom_icon.png">
-For a detailed description of how to add home screen icons on IOS devices you can visit 
-https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
+```html
+<link rel="apple-touch-icon" href="/custom_icon.png" />
+```
+
+[Click here](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) for a detailed explanation on how to add home screen icons on IOS devices.
