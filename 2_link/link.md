@@ -21,4 +21,4 @@ To specify an icon for a home screen on mobile devices, you can use link tag as 
 <link rel="apple-touch-icon" href="/custom_icon.png" />
 ```
 
-<a href='https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html' targe='_blank'> Click Here </a>for a detailed explanation on how to add home screen icons on IOS devices.
+<a href='https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html' target='_blank'> Click Here </a>for a detailed explanation on how to add home screen icons on IOS devices.
