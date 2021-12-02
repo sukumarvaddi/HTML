@@ -60,24 +60,27 @@ Here the `prefetch` value for `rel` attribute makes the browser utilize its idle
 
 A link element can be used with in `body` though it is necessarily not a good idea. A link element can go in the `<body>` tag only if the the link type is **body-ok**. style sheets are **body-ok**. But **do not** use `<link>` with in `<body>` tag
 <br/><br/>
-Different link types (when `rel` attribute is set to different types) are explained [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
+Different link types (when `rel` attribute is set to different values) are explained [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types)
 <br/><br/>
-The following are different link types.
+The following are different link types and my understanding of what they mean .
 
-1. [alternate](https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets): This is used to provide alternate style sheets for a web page. On firefox browser you can switch to these style sheets from `view` menu's `Page style` option. I could not figure out how to switch to different style on chrome browser.
-2. author: This `rel` value defines a hyper link to the page about the author of this page or providing means to contact the author.
-3. [canonical](https://en.wikipedia.org/wiki/Canonical_link_element): When this value is specified, it prevents duplicate content issues in search engine Optimization
-4. dns-prefetch: Hints the browser that a specified resource in `href` attribute is needed and carry out DNS lookup and handshaking before user access that link.
-5. help: This leads to a resource which gives further help about the current page.
-6. icon: Navigate to the top of this write up to understand this.
-7. license: specifies a hyperlink to the document describing the licensing information.
-8. manifest: This indicates that the linked file is a [web application manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
-9. modulepreload: Directs the browser to load module scripts with high priority.
-10. #### <a id="next"></a>next :This indicates that the link will lead to the next resource with in the sequence where the current page is in.
+1.  [alternate](https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets): This is used to provide alternate style sheets for a web page. On firefox browser you can switch to these style sheets from `view` menu's `Page style` option. I could not figure out how to switch to different style on chrome browser.
+2.  author: This `rel` value defines a hyper link to the page about the author of this page or providing means to contact the author.
+3.  [canonical](https://en.wikipedia.org/wiki/Canonical_link_element): When this value is specified, it prevents duplicate content issues in search engine Optimization
+4.  dns-prefetch: Hints the browser that a specified resource in `href` attribute is needed and carry out DNS lookup and handshaking before user access that link.
+5.  help: This leads to a resource which gives further help about the current page.
+6.  icon: Navigate to the top of this write up to understand this.
+7.  license: specifies a hyperlink to the document describing the licensing information.
+8.  manifest: This indicates that the linked file is a [web application manifest](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+9.  modulepreload: Directs the browser to load module scripts with high priority.
+10. next :This indicates that the link will lead to the next resource with in the sequence where the current page is in.
 11. more than humans. Read this [article](https://ahrefs.com/blog/nofollow-links/) for better understanding.
 12. pingback: I did not understand this properly.
-13. prefetch: Explained above
+13. prefetch: Explained above.
 14. preload: Explained above.
-15. prev: Opposite of [next](#next)
-    <br/><br/>
-    The comprehensive list of `link` tag attributes and their respective values are explained on [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) on mdn.
+15. prev: Opposite of `next` which is explained at list item `10`
+16. search: I did not understand this properly.
+17. shorlink: I did not understand this properly.
+18. stylesheets: Explained above.
+
+The comprehensive list of `link` tag attributes and their respective values are explained on [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) on mdn.
